@@ -43,7 +43,7 @@ int main() {
             std::cout << "\nPlease input a positive number." << std::endl;
         else
             std::cout << "\nThe volume of a cylinder with the radius of "
-                      << radius << " cm and the height of " << height << " cm is "
+                    << radius << " cm and the height of " << height << " cm is "
                       << volume << " cm³.";
     } catch (std::invalid_argument) {
         std::cout << "\nInvalid Input." << std::endl;
